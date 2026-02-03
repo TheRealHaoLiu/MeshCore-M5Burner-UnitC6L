@@ -1,0 +1,38 @@
+{
+    "name": "MeshCore Unit C6L",
+    "description": "MeshCore LoRa mesh firmware for M5Stack Unit C6L. US/Canada frequency preset (910.525MHz). Experimental. Includes Companion Radio (BLE), Repeater, and Room Server modes.",
+    "keywords": "MeshCore,LoRa,Mesh,Radio,Repeater,Room",
+    "author": "TheRealHaoLiu",
+    "repository": "https://github.com/TheRealHaoLiu/MeshCore",
+    "firmware_category": [
+        {
+            "Companion Radio BLE": {
+                "path": "firmware_companion_radio",
+                "device": [
+                    "M5Stack Unit C6L"
+                ],
+                "default_baud": 921600
+            }
+        },
+        {
+            "Repeater": {
+                "path": "firmware_repeater",
+                "device": [
+                    "M5Stack Unit C6L"
+                ],
+                "default_baud": 921600
+            }
+        },
+        {
+            "Room Server": {
+                "path": "firmware_room_server",
+                "device": [
+                    "M5Stack Unit C6L"
+                ],
+                "default_baud": 921600
+            }
+        }
+    ],
+    "version": "1.11.0",
+    "framework": "PlatformIO Arduino"
+}
